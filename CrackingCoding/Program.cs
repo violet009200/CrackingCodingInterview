@@ -1,4 +1,5 @@
 ﻿using System;
+using Chap1_ArraysAndStrings;
 
 namespace CrackingCoding
 {
@@ -6,7 +7,13 @@ namespace CrackingCoding
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Chap1_IsUnique isUnique = new Chap1_IsUnique();
+            isUnique.Run();
+
+            Chap1_CheckPermutation checkPermutation = new Chap1_CheckPermutation();
+            checkPermutation.Run();
+
         }
     }
 }
