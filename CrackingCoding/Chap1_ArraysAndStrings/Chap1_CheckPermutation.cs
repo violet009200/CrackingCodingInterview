@@ -47,6 +47,8 @@ namespace Chap1_ArraysAndStrings
 
         public void Run()
         {
+            Console.WriteLine("1.2 Check Permutation");
+
             string[][] pairs =
            {
                 new string[]{"apple", "papel"},
