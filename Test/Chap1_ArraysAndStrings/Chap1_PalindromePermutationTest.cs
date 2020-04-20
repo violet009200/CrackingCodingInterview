@@ -7,16 +7,32 @@ namespace Chap1_ArraysAndStrings
     public class Chap1_PalindromePermutationTest
     {
         [Fact]
-        public void ShouldReturn0()
+        public void PalindromePermutationTest()
         {
             //arrange
             Chap1_PalindromePermutation p = new Chap1_PalindromePermutation();
 
             //act
-            int result = p.Run();
-
+            bool result1 = p.isPalindromePermutation("tactcoa");
+            bool result2 = p.isPalindromePermutation("asda");
+            //bool result3 = p.isPalindromePermutation("A man, a plan, a canal, panama");
             //Assert
-            Assert.Equal(0, result);
+            Assert.True(result1); //taco cat
+            Assert.False(result2);
+           // Assert.True(result3);
+        }
+
+        [Fact]
+        public void CheckInputIsNullOrEmpty()
+        {
+            Chap1_PalindromePermutation p = new Chap1_PalindromePermutation();
+
+            bool result = p.isPalindromePermutation(null);
+            Assert.False(result);
+
+            result = p.isPalindromePermutation(string.Empty);
+            Assert.False(result);
         }
     }
 }
+
