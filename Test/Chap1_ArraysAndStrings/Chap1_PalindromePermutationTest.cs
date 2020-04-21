@@ -15,11 +15,11 @@ namespace Chap1_ArraysAndStrings
             //act
             bool result1 = p.isPalindromePermutation("tactcoa");
             bool result2 = p.isPalindromePermutation("asda");
-            //bool result3 = p.isPalindromePermutation("A man, a plan, a canal, panama");
+            
             //Assert
             Assert.True(result1); //taco cat
             Assert.False(result2);
-           // Assert.True(result3);
+           
         }
 
         [Fact]
