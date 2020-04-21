@@ -5,6 +5,9 @@ namespace Chap1_ArraysAndStrings
 {
     public class Chap1_OneAway
     {
+        /*
+         * time: O(n)
+         */
         public bool isOneAway(string input, string output)
         {
             if (String.Equals(input, output)) return true;
