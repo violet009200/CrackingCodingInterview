@@ -7,5 +7,7 @@
 
   <ItemGroup>
     <Folder Include="Chap1_ArraysAndStrings\" />
+    <Folder Include="Chap2_LinkedLists\" />
+    <Folder Include="Helper\" />
   </ItemGroup>
 </Project>

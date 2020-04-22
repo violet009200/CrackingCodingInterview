@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <Folder Include="Chap1_ArraysAndStrings\" />
+    <Folder Include="Chap2_LinkedLists\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CrackingCoding\CrackingCoding.csproj" />
