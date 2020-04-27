@@ -61,7 +61,12 @@
 2.6 Palindrom
     Implement a function to check if a linked list is a palindrome
 
-2.7
-2.8
+2.7 Intersection
+    Given two linked lists, determine if the two lists intersect. Return the intersectiong node.
+    Note that the intersection is defined based on reference, not value.
+    That is, if the kthe node of the first linked list is the exact same node (by reference) as the jth node of the second linked list, then they are intersecting
+
+2.8 Loop Detection
+    Given a linked list which might contain a loop, implement an algorithm that returns the node at the beginning of the loop(if one exists)
 
 /**/
