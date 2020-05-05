@@ -69,4 +69,8 @@
 2.8 Loop Detection
     Given a linked list which might contain a loop, implement an algorithm that returns the node at the beginning of the loop(if one exists)
 
-/**/
+/*  Chap 4. Trees and Graphs    */
+
+4.1 Route Between Nodes
+    Given a directed graph and two nodes(S and E), design an algorithm to find out wheather there is a route from S to E
+
